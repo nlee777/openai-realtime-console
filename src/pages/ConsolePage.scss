@@ -16,6 +16,48 @@
     flex-grow: 1;
   }
 
+  body {
+    color: #352f44;
+  }
+
+  h1 {
+    text-align: center;
+    color: #2a2438;
+  }
+  .text-input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+
+    input {
+      width: 70vw; // 70% of the viewport width
+      height: 18vh; // 18% of the viewport height
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 40px;
+      margin-left: 15px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px; // Example border radius
+      background-color: #5c5470; ;
+      color: #fff;
+      cursor: pointer;
+      width: 70px; // Example width
+      height: 50px;
+      text-align: center;
+
+      &:hover {
+        background-color: #352f44;
+      }
+    }
+  }
+
   .content-top {
     display: flex;
     align-items: center;
@@ -120,7 +162,6 @@
         flex-grow: 1;
       }
       & > .content-actions {
-        padding-top: 400px;
         flex-grow: 0;
         flex-shrink: 0;
         display: flex;
@@ -137,11 +178,11 @@
       .conversation {
         display: flex;
         flex-shrink: 0;
-        width: 100%;
+        width: 90%;
         overflow: hidden;
-        height: 200px;
+        height: 80%;
         min-height: 0;
-        max-height: 200px;
+        max-height: 80%;
         border-top: 1px solid #e7e7e7;
       }
     }
