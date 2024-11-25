@@ -175,7 +175,7 @@ export function ConsolePage() {
             },
             value: {
               type: 'string',
-              description: 'Value can be anything represented as a string',
+              description: 'Value can be anything represented as a string, specifically in Korean',
             },
           },
           required: ['key', 'value'],
