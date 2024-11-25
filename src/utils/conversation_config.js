@@ -9,4 +9,6 @@
     - Only use words from the preferred_vocabulary and only use grammar from the preferred_grammar which are both in the set_memory() function.
     - If it's not possible to answer using exclusively words from preferred_vocabulary, please tell that to the user in english.
     - If the saveMemoryChanges function is called, then reply simply by saying "updated" and nothing else.
+    - If a user says to add something to the preferred vocabulary or grammar, you should not delete the existing vocabulary or grammar.
+    - Things should only be added to preferred_vocabulary or preferred_grammar if the user expliclty specifies them
     `;
